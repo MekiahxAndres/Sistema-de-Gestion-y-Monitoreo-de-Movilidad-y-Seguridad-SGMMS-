@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.GameController"
+            prefWidth="1280" prefHeight="720">
+
+
+    <Canvas fx:id="canvas"
+            width="1280" height="720"
+            AnchorPane.topAnchor="0.0"
+            AnchorPane.leftAnchor="0.0" />
+
+
+    <AnchorPane fx:id="panelContent"
+                layoutX="250" layoutY="80"
+                prefWidth="960" prefHeight="600" />
+
+
+    <Label fx:id="scoreLabel"
+           text="Puntaje: 0"
+           layoutX="560" layoutY="15"
+           style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: white;" />
+
+
+    <Button fx:id="monitoringButton"
+            layoutX="20" layoutY="80"
+            prefWidth="200"
+            text="Centro de Monitoreo"
+            onAction="#loadMonitoringCenter"
+            style="-fx-background-color: #2ecc71; -fx-text-fill: white;"/>
+
+    <Button fx:id="incidentPanelButton"
+            layoutX="20" layoutY="130"
+            prefWidth="200"
+            text="Panel de Incidentes"
+            onAction="#loadIncidentPanel"
+            style="-fx-background-color: #f39c12; -fx-text-fill: white;"/>
+
+    <Button fx:id="trafficMapButton"
+            layoutX="20" layoutY="180"
+            prefWidth="200"
+            text="Mapa de Tráfico"
+            onAction="#loadTrafficMap"
+            style="-fx-background-color: #8e44ad; -fx-text-fill: white;"/>
+
+</AnchorPane>

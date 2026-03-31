@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx/8"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="controller.InfoPopupController"
+           prefWidth="720" prefHeight="520"
+           style="-fx-background-color: rgba(0, 0, 0, 0.4); -fx-padding: 40;">
+
+    <VBox spacing="20" alignment="CENTER" maxWidth="680"
+          style="-fx-background-color: white; -fx-background-radius: 18; -fx-padding: 30;
+                 -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 16, 0.3, 0, 4);">
+
+        <ScrollPane fitToWidth="true" prefHeight="380"
+                    style="-fx-background-color: transparent; -fx-border-color: transparent;">
+            <VBox spacing="10" style="-fx-padding: 10;">
+                <Label text="Bienvenido al SGMMS de Palmira"
+                       style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" />
+
+                <Label wrapText="true"
+                       text="Tendrás que asumir el rol de un operador municipal, cuya misión es gestionar el tránsito y responder ante emergencias en tiempo real.&#10;&#10;Este simulador pondrá a prueba tu capacidad para tomar decisiones rápidas, optimizar rutas y proteger la seguridad ciudadana desde un centro de monitoreo interactivo."
+                       style="-fx-font-size: 15px; -fx-text-fill: #2c3e50;" />
+
+                <Label text="🎮 CONTROLES DEL JUGADOR:"
+                       style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2980b9;" />
+
+                <Label wrapText="true"
+                       text="• Mover arriba .............. W&#10;•Mover abajo ............... S&#10;•Mover izquierda ........... A&#10;•Mover derecha ............. D&#10;•Cambiar a Monitoreo ....... M&#10;•Cambiar a Tráfico ......... T&#10;•Cambiar a Incidentes ...... I"
+                       style="-fx-font-size: 15px; -fx-text-fill: #2c3e50;" />
+
+                <Label text="📊 INDICADORES EN PANTALLA:"
+                       style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2980b9;" />
+
+                <Label wrapText="true"
+                       text="✅ Puntaje Actual: aumenta al resolver incidentes.&#10;🔥 Incidentes Activos: robo, accidente, incendio.&#10;⏱ Tiempo de Respuesta: impacta en la puntuación."
+                       style="-fx-font-size: 15px; -fx-text-fill: #2c3e50;" />
+
+                <Label text="🧠 ESTRATEGIAS RECOMENDADAS:"
+                       style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2980b9;" />
+
+                <Label wrapText="true"
+                       text="- Asigna vehículos basándote en la prioridad del incidente.&#10;- No ignores zonas peligrosas activas.&#10;- Usa el mapa de tráfico para tomar mejores decisiones."
+                       style="-fx-font-size: 15px; -fx-text-fill: #2c3e50;" />
+            </VBox>
+        </ScrollPane>
+
+        <Button fx:id="closeButton"
+                text="Cerrar"
+                onAction="#handleClose"
+                style="-fx-font-size: 16px; -fx-background-color: #27ae60; -fx-text-fill: white;
+                       -fx-padding: 10 30; -fx-background-radius: 14;">
+            <VBox.margin>
+                <Insets top="10"/>
+            </VBox.margin>
+        </Button>
+    </VBox>
+</StackPane>

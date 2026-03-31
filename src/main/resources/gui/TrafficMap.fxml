@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.TrafficMapController"
+      alignment="CENTER"
+      spacing="20"
+      style="-fx-padding: 30; -fx-background-color: white;">
+
+    <Canvas fx:id="miniCanvas" width="600" height="400"
+            onMouseClicked="#handleClick" />
+
+    <Button text="🔙 Volver"
+            onAction="#goBack"
+            style="-fx-font-size: 14px; -fx-background-color: #bdc3c7; -fx-text-fill: black;" />
+</VBox>
