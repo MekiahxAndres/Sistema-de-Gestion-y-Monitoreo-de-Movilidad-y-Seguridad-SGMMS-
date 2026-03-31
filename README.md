@@ -96,19 +96,23 @@ The system was implemented using custom structures:
 ## 📸 Screenshots
 
 ### 🟦 Map Interface
-<img width="837" height="641" alt="image" src="https://github.com/user-attachments/assets/d9fbf60d-f965-4f0c-8834-b0602cc90e25" />
+<img width="837" height="641" alt="image" src="https://github.com/user-attachments/assets/6171528e-8fd4-4c57-8272-213ca3ee5405" />
+
 
 
 ### 🚨 Incident Panel
-<img width="960" height="745" alt="image" src="https://github.com/user-attachments/assets/07ed0b27-0650-47c3-842b-bc89c530ce0e" />
+<img width="960" height="745" alt="image" src="https://github.com/user-attachments/assets/871edd37-7a0d-4ee4-9301-82ed9f437ded" />
+
 
 
 ### 🎮 Gameplay
-<img width="939" height="621" alt="image" src="https://github.com/user-attachments/assets/d3fe550a-e5a2-440b-acc2-dc562c979512" />
+<img width="939" height="621" alt="image" src="https://github.com/user-attachments/assets/51edb32b-3d19-4a66-bb34-718d0f046b4e" />
+
 
 
 ### ℹ️ Information Panel
-<img width="982" height="758" alt="image" src="https://github.com/user-attachments/assets/de7afc65-2301-4ea1-8c6b-c6f7a628a5d7" />
+<img width="982" height="758" alt="image" src="https://github.com/user-attachments/assets/6916c176-b7a2-42a9-bbc4-f9b762ff87b6" />
+
 
 ---
 
